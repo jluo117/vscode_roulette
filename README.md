@@ -1,71 +1,72 @@
-# roulette README
+# Dev Roulette
 
-This is the README for your extension "roulette". After writing up a brief description, we recommend including the following sections.
+A fun and interactive roulette wheel extension for Visual Studio Code. Test your luck with a fully functional European roulette game!
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- 🎡 **Interactive Roulette Wheel**: Spin a beautifully animated roulette wheel with 37 numbers (0-36)
+- 🎨 **Color Display**: Immediately see whether you landed on Red, Black, or Green (0)
+- ⚡ **Smooth Animations**: Watch the wheel spin with realistic easing effects
+- 🎯 **Accurate Results**: European roulette numbering system with correct red/black distributions
 
-For example if there is an image subfolder under your extension project workspace:
+## How to Use
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. Open VS Code
+2. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS)
+3. Search for "Open Roulette" and select it
+4. A webview panel will open with the roulette wheel
+5. Click the **SPIN** button to spin the wheel
+6. Wait 4 seconds for the result to appear with both the number and color
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Visual Studio Code 1.108.1 or higher
+
+## Installation
+
+1. Clone or download this repository
+2. Run `npm install` to install dependencies
+3. Press `F5` to open the extension in the Extension Development Host
+4. Or, package the extension with `vsce package` and install the `.vsix` file
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension currently has no configurable settings.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+None at this time.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
+- Initial release
+- Roulette wheel with 37 numbers
+- Color detection (Red, Black, Green)
+- Smooth spinning animation with random results
 
-### 1.0.1
+## Development
 
-Fixed issue #.
+To contribute or modify this extension:
 
-### 1.1.0
+```bash
+# Install dependencies
+npm install
 
-Added features X, Y, and Z.
+# Compile TypeScript
+npm run compile
 
----
+# Watch mode for development
+npm run watch
 
-## Following extension guidelines
+# Run tests
+npm test
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+# Lint code
+npm run lint
+```
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+Press `F5` to test the extension in the VS Code Extension Development Host.
 
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Have fun spinning the wheel! 🎰**
