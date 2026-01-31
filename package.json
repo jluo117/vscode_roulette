@@ -2,7 +2,9 @@
   "name": "roulette",
   "displayName": "Roulette Opener",
   "description": "Opens a roulette webpage",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "jluo117",
+  "icon": "src/images.jpeg",
   "engines": {
     "vscode": "^1.108.1"
   },
